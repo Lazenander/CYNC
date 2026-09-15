@@ -1,0 +1,5 @@
+module B {
+    export operation main () -> {
+        let v1 = Vector3D(1, 2, 3);
+    };
+}

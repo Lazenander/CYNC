@@ -1,0 +1,20 @@
+{
+  "name": "basic_example",
+  "version": "1.0.0",
+  "author": ["Lazenander"],
+  "description": "",
+  "dependencies": [
+    {
+      "name": "std",
+      "version": "1.0.0",
+      "source": "./preludes/std",
+      "alias": "standard"
+    }
+  ],
+  "commands": [
+    {
+      "command": "run",
+      "operation": "B::main"
+    }
+  ]
+}

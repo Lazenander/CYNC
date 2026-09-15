@@ -1,0 +1,11 @@
+module A {
+    export shape N<T> = { something: T }
+
+    export shape Vec3(x: Int, y: Int, z: Int) = {
+        x = x,
+        y = y,
+        z = z
+    }
+}
+
+export A::N;

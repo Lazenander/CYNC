@@ -1,0 +1,9 @@
+module A {
+    operation f(a: Int) -> Bool {
+        return a > 0;
+    }
+
+    export f;
+}
+
+export A;

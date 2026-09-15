@@ -1,0 +1,11 @@
+module A {
+    shape S1<T> = { s1: T }
+
+    bind get_s1<T>(self: S1<T>) -> T { return self.s1; }
+
+    infix+<T> (a: S1<T>) -> (b: S1<T>) -> S1<T> {
+        return { s1: a.s1 + b.s1 };
+    }
+}
+
+export A::S1 as S1;

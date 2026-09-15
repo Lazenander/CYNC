@@ -1,0 +1,20 @@
+{
+  "name": "complex_aliases",
+  "version": "1.0.0",
+  "author": ["Claude"],
+  "description": "Testing complex alias chains",
+  "dependencies": [
+    {
+      "name": "std",
+      "version": "1.0.0",
+      "source": "./preludes/std",
+      "alias": "standard"
+    }
+  ],
+  "commands": [
+    {
+      "command": "run",
+      "operation": "Main::main"
+    }
+  ]
+}

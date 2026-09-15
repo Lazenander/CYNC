@@ -1,0 +1,13 @@
+export module A {
+    export module B {
+        export module C {
+            export shape F: A | B = Int;
+        }
+    }
+
+    export B::C as D;
+    export D as E;
+}
+
+use A::E::F as B;
+use standard::B as C;

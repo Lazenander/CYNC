@@ -1,0 +1,7 @@
+{
+  "name": "std",
+  "version": "1.0.0",
+  "author": ["Lazenander"],
+  "description": "The standard cell for the programming language Cync.",
+  "dependencies": []
+}
